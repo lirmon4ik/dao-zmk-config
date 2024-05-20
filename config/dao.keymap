@@ -49,10 +49,10 @@
 
         raise_layer {
             bindings = <
-&kp C_PLAY_PAUSE  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp KP_NUM  &kp HOME  &kp PSCRN       &kp PG_UP     &kp SLCK         &kp C_VOL_UP
-&kp C_NEXT        &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp K_APP        &kp LS(C_MUTE)
-&kp C_PREVIOUS    &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp LA(F4)  &kp END   &kp INS         &kp PG_DN     &kp PAUSE_BREAK  &kp C_VOL_DN
-                                              &trans     &trans     &mo 3         &mo 3       &trans    &trans
+&kp C_PLAY_PAUSE  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp KP_NUM      &kp HOME        &kp PSCRN     &kp PG_UP        &kp SLCK         &kp C_VOL_UP
+&kp C_NEXT        &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp K_APP        &kp C_MUTE
+&kp C_PREVIOUS    &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp LA(F4)      &kp END         &kp INS       &kp PG_DN        &kp PAUSE_BREAK  &kp C_VOL_DN
+                                              &trans     &trans     &mo 3         &mo 3           &trans          &trans
             >;
         };
 
