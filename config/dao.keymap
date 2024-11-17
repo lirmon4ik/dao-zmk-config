@@ -66,7 +66,7 @@
     delay-ms = <0>;
     trigger-period-ms = <8>;      // 16
 };
-
+/{
  behaviors {
             // Global
             mlt: mouse_layer_tap {
@@ -78,7 +78,7 @@
                 bindings = <&mo>, <&kp>;
             };
         };
-
+};
 / {
     keymap {
         compatible = "zmk,keymap";
