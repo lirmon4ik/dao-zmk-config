@@ -3,9 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include <dt-bindings/zmk/mouse.h>
-#include <behaviors/mouse_keys.dtsi>
-
 #define DEF 0
 #define LWR 1
 #define RSE 2
@@ -14,33 +11,6 @@
 #define U_TAPPING_TERM 300
 #define U_QUICK_TAP 0
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 800  // 600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20   // 10
-
-#define ZMK_MOUSE_FAST_MOVE_VAL 1600
-#define ZMK_MOUSE_FAST_SCRL_VAL 40
-#define ZMK_MOUSE_SLOW_MOVE_VAL 400
-#define ZMK_MOUSE_SLOW_SCRL_VAL 10
-
-#define MV_FUP MOVE_Y(-ZMK_MOUSE_FAST_MOVE_VAL)
-#define MV_FDOWN MOVE_Y(ZMK_MOUSE_FAST_MOVE_VAL)
-#define MV_FLEFT MOVE_X(-ZMK_MOUSE_FAST_MOVE_VAL)
-#define MV_FRIGHT MOVE_X(ZMK_MOUSE_FAST_MOVE_VAL)
-
-#define SC_FUP MOVE_Y(ZMK_MOUSE_FAST_SCRL_VAL)
-#define SC_FDOWN MOVE_Y(-ZMK_MOUSE_FAST_SCRL_VAL)
-#define SC_FLEFT MOVE_X(-ZMK_MOUSE_FAST_SCRL_VAL)
-#define SC_FRIGHT MOVE_X(ZMK_MOUSE_FAST_SCRL_VAL)
-
-#define MV_SUP MOVE_Y(-ZMK_MOUSE_SLOW_MOVE_VAL)
-#define MV_SDOWN MOVE_Y(ZMK_MOUSE_SLOW_MOVE_VAL)
-#define MV_SLEFT MOVE_X(-ZMK_MOUSE_SLOW_MOVE_VAL)
-#define MV_SRIGHT MOVE_X(ZMK_MOUSE_SLOW_MOVE_VAL)
-
-#define SC_SUP MOVE_Y(ZMK_MOUSE_SLOW_SCRL_VAL)
-#define SC_SDOWN MOVE_Y(-ZMK_MOUSE_SLOW_SCRL_VAL)
-#define SC_SLEFT MOVE_X(-ZMK_MOUSE_SLOW_SCRL_VAL)
-#define SC_SRIGHT MOVE_X(ZMK_MOUSE_SLOW_SCRL_VAL)
 
 &lt { quick_tap_ms = <200>; };
 
@@ -54,18 +24,6 @@
     };
 };
 
-&mmv {
-    acceleration-exponent = <1>;  // 1
-    time-to-max-speed-ms = <300>; // 300
-    delay-ms = <0>;
-    trigger-period-ms = <8>;      // 16
-};
-&msc {
-    acceleration-exponent = <1>;  // 0
-    time-to-max-speed-ms = <40>;  // 300
-    delay-ms = <0>;
-    trigger-period-ms = <8>;      // 16
-};
 /{
  behaviors {
             // Global
