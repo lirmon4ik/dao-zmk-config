@@ -1,15 +1,20 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: urob
+      url-base: https://github.com/urob
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
     - name: proostas
       url-base: https://github.com/proostas
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: dao-zmk-module
+      remote: proostas
+      revision: main
+    - name: zmk-antecedent-morph
       remote: proostas
       revision: main
     - name: colemator-layout-zmk-module
