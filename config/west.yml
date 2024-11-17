@@ -2,10 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: proostas
+      url-base: https://github.com/proostas
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: dao-zmk-module
+      remote: proostas
+      revision: main
+    - name: colemator-layout-zmk-module
+      remote: proostas
+      revision: main
   self:
     path: config
