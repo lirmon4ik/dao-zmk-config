@@ -64,8 +64,8 @@
 
         mouse_layer {
             bindings = <
-&kp C_PLAY_PAUSE  &msc SCRL_UP    &mkp RCLK        &mmv MOVE_UP    &mkp LCLK        &trans     &kp PRINTSCREEN  &kp CAPS        &kp PAUSE_BREAK  &kp K_APP        &trans  &kp C_VOL_UP
-&kp C_NEXT        &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &kp C_MUTE
+&kp C_PLAY_PAUSE  &mkp RCLK       &msc SCRL_UP     &mmv MOVE_UP    &msc SCRL_DOWN         &trans     &kp PRINTSCREEN  &kp CAPS        &kp PAUSE_BREAK  &kp K_APP        &trans  &kp C_VOL_UP
+&kp C_NEXT        &mkp LCLK       &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans  &kp C_MUTE
 &kp C_PREVIOUS    &msc SCRL_LEFT  &msc SCRL_RIGHT  &mkp MB4        &mkp MB5         &mkp MCLK  &kp LA(F4)       &mo 3           &mo 4            &trans           &trans  &kp C_VOL_DN
                                                    &trans          &trans           &mo 5      &mo 5            &trans          &trans
             >;
@@ -73,8 +73,8 @@
 
         fast_mouse_layer {
             bindings = <
-&trans  &msc SC_FUP    &trans          &mmv MV_FUP    &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &msc SC_FDOWN  &mmv MV_FLEFT   &mmv MV_FDOWN  &mmv MV_FRIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &msc SC_FUP     &mmv MV_FUP    &msc SC_FDOWN    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &mmv MV_FLEFT   &mmv MV_FDOWN  &mmv MV_FRIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &msc SC_FLEFT  &msc SC_FRIGHT  &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                        &trans         &trans          &trans  &trans  &trans  &trans
             >;
@@ -82,8 +82,8 @@
 
         slow_mouse_layer {
             bindings = <
-&trans  &msc SC_SUP    &trans          &mmv MV_SUP    &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &msc SC_SDOWN  &mmv MV_SLEFT   &mmv MV_SDOWN  &mmv MV_SRIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &msc SC_SUP     &mmv MV_SUP    &msc SC_SDOWN   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &mmv MV_SLEFT   &mmv MV_SDOWN  &mmv MV_SRIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &msc SC_SLEFT  &msc SC_SRIGHT  &trans         &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                        &trans         &trans          &trans  &trans  &trans  &trans
             >;
