@@ -10,8 +10,8 @@
 #define ADJ 3
 #define FMO 4
 #define SMO 5
-#define U_TAPPING_TERM 300
-#define U_QUICK_TAP 0
+#define U_TAPPING_TERM 200
+#define U_QUICK_TAP 200
 #define U_STREAK_DECAY 150
 #define LEFT_HAND_KEYS   \
      0  1  2  3  4  5    \
