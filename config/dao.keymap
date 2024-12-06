@@ -168,7 +168,7 @@
         numbers {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &kp MINUS     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &tog 0     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &tog 6     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp ASTRK     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans
                         &trans  &trans  &trans  &kp KP_ENTER  &kp KP_NUMBER_0  &kp KP_DOT
             >;
